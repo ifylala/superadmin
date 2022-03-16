@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.ion-icon {
+  font-size: 128px;
+}
+
+.header {
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+}
+
+.header.img{
+height: 58px;
+width: 58px;
+border-radius: 0px;
+}
+
+
+.noti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-bell:before {
+    content: "\f0f3";
+    padding-right: 10px;
+    color: #347043;
+}
+/* .notify.img {
+height: 37px;
+width: 38px;
+border-radius: 0px;
+} */
+
+
+
+.background{
+  background-color: #E5E5E5;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.view {
+  background-color: #347043;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.view p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+
+.view-1{
+  font-family: 'Raleway';
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 66px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.view-1:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
+}
+
+.view-2{
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
+  display: flex;
+  margin-top: 22px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+}
+.view-2:hover{
+  color: #347043;
+}
+
+.view-3{
+  font-family: 'Raleway';
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+}
+
+.view-3:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
+}
+
+.view-4{
+  font-family: 'Raleway';
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.view-4:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
+}
+
+.view-5{
+  font-family: 'Raleway';
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.view-5:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
+}
+
+
+.fas {
+  font-weight: 900;
+  margin-right: 5px;
+  margin-top: 0px;
+}
+
+.button{
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #ABD044;
+  font-family: 'Raleway';
+  margin-top: 33px;
+  width: 146px;
+  height: 34px;
+  border: none;
+}
+
+
+.control{
+  height: 100vh;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.control h1 {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 30px;
+  line-height: 35.22px;
+  color: #347043;
+  padding-top: 80px;
+  padding-left: 77px;
+}
+
+.inpt {
+  background-color: #FFFFFF;
+  height: 111px;
+  width: 88%;
+  margin-left: 79px;
+  margin-right: 79px;
+  margin-top: 36px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Raleway';
+}
+
+.inpt input{
+background: #EBEBEB;
+height: 55px;
+width: 100%;
+margin: 29px;
+border: none;
+border-radius: 5px;
+padding: 15px;
+}
+
+
+table {
+  font-family: "Raleway";
+  width: 88%;
+  border: 1px solid #EAEAEA;
+  margin: 79px 79px 79px 79px;
+
+}
+
+tr {
+  border: 1px solid #EAEAEA;
+  border-top-left-radius: 8px;
+}
+
+td {
+  padding: 10px;
+  background-color: #F2F2F2;
+  color: #252525;
+
+}
+
+th {
+  font-family: 'Raleway';
+  padding: 10px;
+  background-color: #EBEBEB;
+
+}
+
+.fr {
+  text-align: end;
+  color: #347043;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.fa-eye:before {
+    content: "\f06e";
+    color: #C4C4C4;
+}
+
+.fa-angle-right:before {
+  content: "\f105";
+  color: #347043;
+  margin-left: 5px;
+}

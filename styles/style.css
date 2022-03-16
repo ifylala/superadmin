@@ -45,13 +45,6 @@ border-radius: 0px;
     padding-right: 10px;
     color: #347043;
 }
-/* .notify.img {
-height: 37px;
-width: 38px;
-border-radius: 0px;
-} */
-
-
 
 .background{
   background-color: #E5E5E5;
@@ -68,7 +61,7 @@ border-radius: 0px;
 }
 
 .view p {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 0px;
   font-size: 16px;
 }
@@ -85,7 +78,13 @@ border-radius: 0px;
   align-items: center;
   height: 50px;
   width: 100%;
+  text-decoration: none;
 }
+
+.view-1:hover{
+  color: #347043;
+}
+
 img {
   margin-right: 5px;
 }
@@ -100,6 +99,13 @@ img {
   text-align: center;
   height: 50px;
   width: 100%;
+  text-decoration: none;
+}
+
+.view-2:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
 }
 
 
@@ -113,9 +119,14 @@ img {
   height: 50px;
   width: 100%;
   align-items: center;
+  text-decoration: none;
 }
 
-
+.view-3:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
+}
 
 .view-4{
   font-family: 'Raleway';
@@ -127,6 +138,13 @@ img {
   text-align: center;
   height: 50px;
   width: 100%;
+  text-decoration: none;
+}
+
+.view-4:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
 }
 
 
@@ -140,6 +158,13 @@ img {
   text-align: center;
   height: 50px;
   width: 100%;
+  text-decoration: none;
+}
+
+.view-5:hover {
+  background-color: #FCFFF2;
+  font-family: 'Raleway';
+  color: #347043;
 }
 
 
@@ -274,12 +299,37 @@ th {
   width: 100%;
 }
 
+.btn-primary {
+  color: none;
+  background-color: none;
+  border-color: none;
+}
+.ref img{
+  
+}
+
 
 
 @media screen and (min-width: 360px) and (max-width: 800px) {
+
+  .ref img{
+   display: none;
+  }
+  
+.header.img{
+  display: none;
+}
+
+.btn-primary {
+  color: none;
+  background-color: none;
+  border-color: none;
+}
+
 .view{
     display: none;
-}
+ }
+
 
 .board h1 {
   font-weight: 700;
@@ -290,6 +340,16 @@ th {
   text-align: center;
   padding-top: 84px;
   padding-left: 0px;
+}
+
+.board h2 {
+  font-weight: 500;
+  font-family: "Raleway";
+  font-size: 30px;
+  line-height: 35.22px;
+  color: #347043;
+  padding-top: 50px;
+  padding-left: 70px;
 }
 
 .path {
