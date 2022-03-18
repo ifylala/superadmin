@@ -267,9 +267,10 @@ th {
 }
 
 .fr {
-  text-align: end;
-  color: #347043;
   font-size: 15px;
-  font-weight: 700;
-}
-
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+  

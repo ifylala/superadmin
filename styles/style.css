@@ -72,7 +72,7 @@ border-radius: 0px;
   font-family: 'Raleway';
   color: #347043;
   display: flex;
-  margin-top: 66px;
+  margin-top: 86px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -304,9 +304,9 @@ th {
   background-color: none;
   border-color: none;
 }
-.ref img{
+/* .ref img{
   
-}
+} */
 
 
 

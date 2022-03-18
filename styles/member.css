@@ -81,7 +81,7 @@ border-radius: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 66px;
+  margin-top: 86px;
   text-align: center;
   height: 50px;
   width: 100%;
@@ -257,10 +257,11 @@ th {
 }
 
 .fr {
-  text-align: end;
-  color: #347043;
-  font-size: 15px;
-  font-weight: 700;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
 }
 
 .fa-eye:before {
