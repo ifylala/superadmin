@@ -69,8 +69,40 @@
     <h1>Communities</h1>
 
     <div class="inpt">
-      <input type="search" placeholder="Search Communities by name" name="" id=""> <div class="add"> <i class="fas fa-solid fa-plus fa-1.5x"></i> Add a group</div>
+      <input type="search" placeholder="Search Communities by name" name="" id=""> 
+
+      <div class="add" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+        <i class="fas fa-solid fa-plus fa-1.5x"></i> Add a Community</div>
     </div>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Group</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <div class="oup">
+        <p>Name of Community</p>
+        <input type="text" placeholder="" name="" id="">
+       </div>
+
+       <div class="cri">
+        <p>Description</p>
+        <input type="text" placeholder="" name="" id="">
+       </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="cel">Cancel</button>
+        <button type="button" class="btn btn-primary" id="rea">Create</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   
     <table> 

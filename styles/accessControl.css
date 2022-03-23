@@ -227,3 +227,41 @@ border: none;
 border-radius: 5px;
 padding: 15px;
 }
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+
+.control h1 {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 30px;
+  line-height: 35.22px;
+  color: #347043;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+
+.inpt {
+  background-color: #FFFFFF;
+  height: 92px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 36px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Raleway';
+}
+
+.inpt input {
+  background: #EBEBEB;
+  height: 55px;
+  width: 100%;
+  margin: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+}

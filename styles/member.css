@@ -274,3 +274,71 @@ text-align: left;
   color: #347043;
   margin-left: 5px;
 }
+
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+.control h1 {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 25px;
+  line-height: 35.22px;
+  color: #347043;
+  padding-top: 80px;
+  padding-left: 19px;
+}
+
+.inpt {
+  background-color: #FFFFFF;
+  height: 82px;
+  margin: 30px 10px;
+  width: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Raleway';
+}
+
+.inpt input {
+  background: #EBEBEB;
+  height: 47px;
+  width: 86%;
+  margin: 11px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+
+table {
+  font-family: "Raleway";
+  width: auto;
+  border: 1px solid #EAEAEA;
+  margin: 58px 3px;
+}
+
+th {
+  font-family: 'Raleway';
+  padding: 6px;
+  background-color: #EBEBEB;
+  font-size: 6px;
+}
+
+td {
+  padding: 4px;
+  background-color: #F2F2F2;
+  color: #252525;
+  font-size: 7px;
+}
+
+.fr {
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+}

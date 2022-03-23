@@ -197,15 +197,15 @@ border-radius: 0px;
   line-height: 35.22px;
   color: #347043;
   padding-top: 80px;
-  padding-left: 77px;
+  padding-left: 70px;
 }
 
-.add {
+#add {
   background-color: #347043;
   color: #FFFFFF;
   font-family: 'Raleway';
   border-radius: 5px;
-  width: 33%;
+  width: 50%;
   height: 55px;
   margin: 0px 30px 0px 0px;
   text-align: center;
@@ -218,7 +218,7 @@ border-radius: 0px;
   background-color: #FFFFFF;
   height: 111px;
   width: 88%;
-  margin-left: 79px;
+  margin-left: 70px;
   margin-right: 79px;
   margin-top: 36px;
   justify-content: center;
@@ -243,7 +243,7 @@ table {
   font-family: "Raleway";
   width: 88%;
   border: 1px solid #EAEAEA;
-  margin: 79px 79px 79px 79px;
+  margin: 79px 79px 79px 70px;
 
 }
 
@@ -274,3 +274,196 @@ th {
   text-align: left;
   }
   
+/* Modal */
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 78vh;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.modal-title{
+  color: #347043;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: #F3F3F3;
+  border-bottom: none;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.oup p{
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.oup input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  height: 41px;
+  background-color: #EEEEEE;
+  border: none;
+  border-radius: 4px;
+}
+
+.cri p {
+  font-family: 'Raleway';
+  margin-top: 22px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cri input{
+  width: 100%;
+  height: 161px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border: none;
+}
+
+.modal-footer button{
+  width: 46%;
+  font-family: 'Raleway';
+}
+
+#cel{
+  background-color: #FFFFFF;
+ color: #ED2727;
+ border: 1px solid #ED2727;
+}
+
+#rea{
+  background-color: #347043;
+  color: #FCFFF2;
+  border: 1px solid #347043;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+.control h1 {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 29px;
+  /* line-height: 35.22px; */
+  color: #347043;
+  padding-top: 80px;
+  padding-left: 15px;
+}
+
+.inpt {
+  background-color: #FFFFFF;
+  height: 82px;
+  margin: 30px 10px;
+  width: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-family: 'Raleway';
+}
+
+.inpt input {
+  background: #EBEBEB;
+  height: 47px;
+  width: 86%;
+  margin: 11px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#add {
+  background-color: #347043;
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  border-radius: 5px;
+  width: 35%;
+  font-size: 10px;
+  padding: 3px;
+  height: 47px;
+  margin: 0px 11px 0px 1px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  font-family: "Raleway";
+  width: auto;
+  border: 1px solid #EAEAEA;
+  margin: 58px 10px;
+}
+
+th {
+  font-family: 'Raleway';
+  padding: 6px;
+  background-color: #EBEBEB;
+  font-size: 9px;
+}
+
+td {
+  padding: 7px;
+  background-color: #F2F2F2;
+  color: #252525;
+  font-size: 13px;
+}
+
+.oup input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+  height: 41px;
+  background-color: #EEEEEE;
+  border: none;
+  border-radius: 4px;
+}
+
+.cri input {
+  width: 100%;
+  height: 161px;
+}
+
+.fr {
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+}
